@@ -1,10 +1,15 @@
 {
   "name": "hapi-ts-learn",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "lib/main.js",
   "license": "MIT",
   "dependencies": {
     "@hapi/hapi": "^21.2.1"
+  },
+  "scripts": {
+    "dev:tsc": "tsc --watch -p .",
+    "dev:serve": "nodemon -e js -w lib lib/main.js",
+    "dev": "run-p dev:*"
   },
   "devDependencies": {
     "@types/hapi__hapi": "^21.0.0",
