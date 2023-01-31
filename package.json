@@ -1,0 +1,16 @@
+{
+  "name": "hapi-ts-learn",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^21.2.1"
+  },
+  "devDependencies": {
+    "@types/hapi__hapi": "^21.0.0",
+    "@types/node": "^18.11.18",
+    "nodemon": "^2.0.20",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^4.9.5"
+  }
+}
